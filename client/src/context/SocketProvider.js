@@ -7,6 +7,6 @@ const options = {
     transports: ["websocket"],
 }
 
-const socket = io("http://localhost:3002/", options)
+const socket = io("https://videochatappserver-xbhc.onrender.com/", options)
 
 export default socket;
